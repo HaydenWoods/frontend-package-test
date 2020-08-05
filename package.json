@@ -1,6 +1,6 @@
 {
   "name": "@haydenwoods/frontend-package-test",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "description": "A test package for reuseable frontend components",
   "repository": {
     "type": "git",
@@ -9,7 +9,9 @@
   "author": "Hayden Woods",
   "license": "ISC",
   "homepage": "https://github.com/HaydenWoods/frontend-package-test#readme",
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "main": "dist/index.tsx",
   "devDependencies": {
     "@types/react": "^16.9.44",
