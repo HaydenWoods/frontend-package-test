@@ -8,5 +8,27 @@
   },
   "author": "Hayden Woods",
   "license": "ISC",
-  "homepage": "https://github.com/HaydenWoods/frontend-package-test#readme"
+  "homepage": "https://github.com/HaydenWoods/frontend-package-test#readme",
+  "files": ["dist"],
+  "main": "dist/index.tsx",
+  "devDependencies": {
+    "@types/react": "^16.9.44",
+    "@types/react-dom": "^16.9.8",
+    "babel-core": "^6.26.3",
+    "babel-runtime": "^6.26.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "rollup": "^2.23.0",
+    "rollup-plugin-sass": "^1.2.2",
+    "rollup-plugin-typescript2": "^0.27.1",
+    "typescript": "^3.9.7"
+  },
+  "peerDependencies": {
+    "react": "^16.8.0",
+    "react-dom": "^16.8.0"
+  },
+  "scripts": {
+    "build": "rollup -c",
+    "start": "rollup -c -w"
+  }
 }
