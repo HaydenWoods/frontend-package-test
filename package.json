@@ -1,0 +1,12 @@
+{
+  "name": "@haydenwoods/frontend-package-test",
+  "version": "0.1.2",
+  "description": "A test package for reuseable frontend components",
+  "repository": {
+    "type": "git",
+    "url": "git+https://HaydenWoods@github.com/HaydenWoods/frontend-package-test.git"
+  },
+  "author": "Hayden Woods",
+  "license": "ISC",
+  "homepage": "https://github.com/HaydenWoods/frontend-package-test#readme"
+}
