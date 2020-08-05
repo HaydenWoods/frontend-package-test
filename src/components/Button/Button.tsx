@@ -1,11 +1,15 @@
-import React, { useState, useEffect } from 'react'
+import React from 'react'
 
 import './styles.scss'
 
-const Button: React.FC<{
-  className?: string
-}> = ({ className = '' }) => {
-  return <div className="button"><p>Test button</p></div>
+type ButtonProps = {
+	text: string,
 }
 
-export Button
+export const Button = ({ text }: ButtonProps) => {
+	return (
+		<div className="button">
+			<p>{ text }</p>
+		</div>
+	)
+}
