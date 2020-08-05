@@ -31,6 +31,6 @@
   },
   "scripts": {
     "build": "rollup -c",
-    "start": "rollup -c -w"
+    "start": "react-scripts start"
   }
 }

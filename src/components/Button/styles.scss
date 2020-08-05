@@ -1,9 +1,11 @@
+@import "../../_vars.scss";
+
 .button {
 	height: 48px;
-	background: blue;
+	background: map_get($colors, "blue");
 
 	p {
-		color: #fcfcfc;
+		color: map_get($colors, "lightWhite");
 		font-size: 14px;
 		line-height: 48px;
 		text-align: center;
